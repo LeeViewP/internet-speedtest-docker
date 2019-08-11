@@ -1,5 +1,5 @@
 FROM grafana/grafana
-MAINTAINER Pedro César de Azevedo <pedrocesar.ti@gmail.com>
+MAINTAINER Andrew Best festivus+docker@gmail.com
 
 ADD conf/grafana.db /var/lib/grafana/grafana.db
 ADD conf/home.json /usr/share/grafana/public/dashboards/home.json
