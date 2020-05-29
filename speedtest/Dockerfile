@@ -1,4 +1,5 @@
-FROM python:2-alpine
+#FROM python:2-alpine
+FROM  arm32v7/python
 MAINTAINER Lee View lee.view@gmail.com
 
 RUN mkdir -p /app/speedtest/

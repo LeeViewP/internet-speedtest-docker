@@ -7,7 +7,7 @@ services:
     networks:
       - default
     volumes:
-       - "./data/influxdb/:/var/lib/influxdb"
+       - /srv/dev-disk-by-label-HddStorage/Containers/speedtest:/var/lib/influxdb
     environment:
       - INFLUXDB_ADMIN_USER=admin
       - INFLUXDB_ADMIN_PASSWORD=password
