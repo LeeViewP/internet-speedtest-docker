@@ -5,7 +5,7 @@ while true
 do 
 	TIMESTAMP=$(date '+%s')
 
-	/app/speedtest/speedtest-cli --server 18713 > $FILE
+	/app/speedtest/speedtest-cli > $FILE
 
 	DOWNLOAD=$(cat $FILE | grep "Download:" | awk -F " " '{print $2}')
 	UPLOAD=$(cat $FILE | grep "Upload:" | awk -F " " '{print $2}')

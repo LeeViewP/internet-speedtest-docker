@@ -1,5 +1,5 @@
 FROM python:2-alpine
-MAINTAINER Andrew Best festivus+docker@gmail.com
+MAINTAINER Lee View lee.view@gmail.com
 
 RUN mkdir -p /app/speedtest/
 RUN apk add --update curl
